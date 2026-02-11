@@ -96,7 +96,7 @@ void AltitudeTask::Run(void *pvParams) {
 		if (haloData.size() > 0) { haloOutput = { haloData.at(0), haloData.at(1), haloData.at(2) }; }
 
 		// we dont have a publisher for this type yet!
-		DataBroker::Publish<FilterData>(&haloOutput);
+		// DataBroker::Publish<FilterData>(&haloOutput);
 	}
 }
 

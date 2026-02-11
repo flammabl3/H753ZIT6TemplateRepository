@@ -21,7 +21,11 @@ public:
 
 protected:
 	static void RunTask(void *pvParams) {
-		AltitudePublishTask::Inst().Run(pvParams);
+		auto *self = static_cast<AltitudePublishTask*>(pvParams);
+
+		configASSERT(self != nullptr);
+
+		self->Run(pvParams);
 	}  // Static Task Interface, passes control to the instance Run();
 
 	void Run(void *pvParams);  // Main run code

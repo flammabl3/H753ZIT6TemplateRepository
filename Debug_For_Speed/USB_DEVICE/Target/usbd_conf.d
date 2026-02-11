@@ -31,24 +31,13 @@ USB_DEVICE/Target/usbd_conf.o: ../USB_DEVICE/Target/usbd_conf.c \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
  ../USB_DEVICE/Target/usbd_conf.h ../Core/Inc/main.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
@@ -90,25 +79,14 @@ USB_DEVICE/Target/usbd_conf.o: ../USB_DEVICE/Target/usbd_conf.c \
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 ../USB_DEVICE/Target/usbd_conf.h:
 ../Core/Inc/main.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h:
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:

@@ -1,6 +1,6 @@
 ../SoarOS/Core/Timer.cpp:19:1:Timer::Timer()	2
 ../SoarOS/Core/Timer.cpp:36:1:Timer::Timer(void (*)(TimerHandle_t))	2
-../SoarOS/Core/Timer.cpp:47:1:Timer::~Timer()	2
+../SoarOS/Core/Timer.cpp:47:1:Timer::~Timer()	1
 ../SoarOS/Core/Timer.cpp:62:6:static void Timer::DefaultCallback(TimerHandle_t)	1
 ../SoarOS/Core/Timer.cpp:71:6:bool Timer::ChangePeriodMs(uint32_t)	3
 ../SoarOS/Core/Timer.cpp:87:6:bool Timer::ChangePeriodMsAndStart(uint32_t)	2

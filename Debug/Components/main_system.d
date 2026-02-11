@@ -62,11 +62,12 @@ Components/main_system.o: ../Components/main_system.cpp \
  C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/SystemDefines.hpp \
  C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeDefines.hpp \
  C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/CubeUtils.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/Communication/Inc/UARTTask.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Drivers/Inc/UARTTask.hpp \
  C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Task.hpp \
  C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Queue.hpp \
  C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Command.hpp \
  C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/CubeUtils.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Drivers/Inc/UARTDriver.hpp \
  C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeTask.hpp \
  C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeDefines.hpp \
  C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/SOARDebug/Inc/DebugTask.hpp \
@@ -326,11 +327,12 @@ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Driver
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/SystemDefines.hpp:
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeDefines.hpp:
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/CubeUtils.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/Communication/Inc/UARTTask.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Drivers/Inc/UARTTask.hpp:
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Task.hpp:
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Queue.hpp:
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Command.hpp:
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/CubeUtils.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Drivers/Inc/UARTDriver.hpp:
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeTask.hpp:
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeDefines.hpp:
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/SOARDebug/Inc/DebugTask.hpp:

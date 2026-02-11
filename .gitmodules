@@ -10,3 +10,6 @@
 [submodule "CommunicationSystemsSubmodule"]
 	path = CommunicationSystemsSubmodule
 	url = https://github.com/UCSOAR/CommunicationSystemsSubmodule.git
+[submodule "soaros"]
+	path = soaros
+	url = https://github.com/flammabl3/SoarOperatingSystem

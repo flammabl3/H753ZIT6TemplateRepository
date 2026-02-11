@@ -5,5 +5,5 @@
 ../Core/Src/stm32h7xx_it.c:132:6:UsageFault_Handler	1
 ../Core/Src/stm32h7xx_it.c:147:6:DebugMon_Handler	1
 ../Core/Src/stm32h7xx_it.c:167:6:TIM2_IRQHandler	1
-../Core/Src/stm32h7xx_it.c:181:6:USART2_IRQHandler	1
-../Core/Src/stm32h7xx_it.c:194:6:OTG_FS_IRQHandler	1
+../Core/Src/stm32h7xx_it.c:181:6:OTG_FS_IRQHandler	1
+../Core/Src/stm32h7xx_it.c:194:6:USART2_IRQHandler	1

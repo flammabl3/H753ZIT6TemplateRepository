@@ -1,6 +1,5 @@
-../Core/Src/main.c:240:13:MX_USART2_UART_Init	264	static,ignoring_inline_asm
-../Core/Src/main.c:157:6:SystemClock_Config	136	static,ignoring_inline_asm
-../Core/Src/main.c:75:5:main	40	static,ignoring_inline_asm
-../Core/Src/main.c:343:6:StartDefaultTask	8	static
-../Core/Src/main.c:393:6:HAL_TIM_PeriodElapsedCallback	0	static
-../Core/Src/main.c:411:6:Error_Handler	0	static,ignoring_inline_asm
+../Core/Src/main.c:159:6:SystemClock_Config	136	static,ignoring_inline_asm
+../Core/Src/main.c:77:5:main	40	static,ignoring_inline_asm
+../Core/Src/main.c:314:6:StartDefaultTask	8	static
+../Core/Src/main.c:364:6:HAL_TIM_PeriodElapsedCallback	0	static
+../Core/Src/main.c:382:6:Error_Handler	0	static,ignoring_inline_asm

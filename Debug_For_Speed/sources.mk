@@ -41,6 +41,7 @@ SUBDIRS := \
 AltitudePredictionFilter \
 Components/AltitudeTask \
 Components \
+Components/SOARDebug \
 Core/Src \
 Core/Startup \
 Drivers/STM32H7xx_HAL_Driver/Src \

@@ -1,6 +1,6 @@
 Components/main_system.o: ../Components/main_system.cpp \
  ../Components/SystemDefines.hpp ../Components/main_system.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/Mutex.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Mutex.hpp \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
@@ -50,28 +50,32 @@ Components/main_system.o: ../Components/main_system.cpp \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Drivers/Inc/UARTDriver.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/Components/SystemDefines.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/CubeDefines.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/CubeUtils.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/CubeTask.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/Task.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/Queue.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/Command.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/CubeUtils.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/CubeDefines.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/Components/SoarDebug/DebugTask.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/Components/AltitudeTask/AltitudeTask.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/AltitudePredictionFilter/everestTaskHPP.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/AltitudePredictionFilter/infusion.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/AltitudePredictionFilter/KDTree.hpp \
- C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/AltitudePredictionFilter/HALO.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Drivers/Inc/UARTDriver.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/SystemDefines.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeDefines.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/CubeUtils.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Drivers/Inc/UARTTask.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Task.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Queue.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Command.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/CubeUtils.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Drivers/Inc/UARTDriver.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeTask.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeDefines.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/SOARDebug/Inc/DebugTask.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/AltitudeTask/AltitudeTask.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/AltitudePredictionFilter/everestTaskHPP.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/AltitudePredictionFilter/infusion.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/AltitudePredictionFilter/KDTree.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/AltitudePredictionFilter/HALO.hpp \
  C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\Cholesky \
  C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\Core \
  C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\src/Core/util/DisableStupidWarnings.h \
@@ -257,10 +261,11 @@ Components/main_system.o: ../Components/main_system.cpp \
  C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\src/Eigenvalues/GeneralizedEigenSolver.h \
  C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\src/Eigenvalues/./RealQZ.h \
  C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\src/Eigenvalues/MatrixBaseEigenvalues.h \
- C:\Users\harry\Desktop\soar\extra\HALO.hpp
+ C:\Users\harry\Desktop\soar\extra\HALO.hpp \
+ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/AltitudeTask/AltitudePublishTask.hpp
 ../Components/SystemDefines.hpp:
 ../Components/main_system.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/Mutex.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Mutex.hpp:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
@@ -310,28 +315,32 @@ C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/Mutex.hpp
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Drivers/Inc/UARTDriver.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/Components/SystemDefines.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/CubeDefines.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/CubeUtils.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/CubeTask.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/Task.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/Queue.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/Command.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/Core/Inc/CubeUtils.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/SoarOS/CubeDefines.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/Components/SoarDebug/DebugTask.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/Components/AltitudeTask/AltitudeTask.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/AltitudePredictionFilter/everestTaskHPP.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/AltitudePredictionFilter/infusion.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/AltitudePredictionFilter/KDTree.hpp:
-C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository/AltitudePredictionFilter/HALO.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Drivers/Inc/UARTDriver.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/SystemDefines.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeDefines.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/CubeUtils.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Drivers/Inc/UARTTask.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Task.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Queue.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/Command.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Core/Inc/CubeUtils.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Drivers/Inc/UARTDriver.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeTask.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/CubeDefines.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/SOARDebug/Inc/DebugTask.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/AltitudeTask/AltitudeTask.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/AltitudePredictionFilter/everestTaskHPP.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/AltitudePredictionFilter/infusion.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/AltitudePredictionFilter/KDTree.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/AltitudePredictionFilter/HALO.hpp:
 C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\Cholesky:
 C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\Core:
 C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\src/Core/util/DisableStupidWarnings.h:
@@ -518,3 +527,4 @@ C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\src/Eigenvalues/Genera
 C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\src/Eigenvalues/./RealQZ.h:
 C:\Users\harry\Desktop\soar\eigen-3.4.0\eigen-3.4.0\Eigen\src/Eigenvalues/MatrixBaseEigenvalues.h:
 C:\Users\harry\Desktop\soar\extra\HALO.hpp:
+C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/Components/AltitudeTask/AltitudePublishTask.hpp:

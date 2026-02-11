@@ -68,6 +68,9 @@ void AltitudePublishTask::Run(void *pvParams) {
 	DataBroker::Publish(&mag);
 	DataBroker::Publish(&baro);
 
+	TickType_t lastWakeTime = xTaskGetTickCount();
+	const TickType_t period = pdMS_TO_TICKS(10);
+
 
 	while (1) {
 		imu.accelX = 0;
@@ -85,11 +88,16 @@ void AltitudePublishTask::Run(void *pvParams) {
 
 		baro.baro = 0;
 
-
+		SOAR_PRINT("sTART\n");
 		DataBroker::Publish<IMUData>(&imu);
 		DataBroker::Publish<GPSData>(&gps);
 		DataBroker::Publish<MagData>(&mag);
 		DataBroker::Publish<BaroData>(&baro);
+		SOAR_PRINT("emd\n");
+
+
+		vTaskDelayUntil(&lastWakeTime, period);
+
 	}
 }
 

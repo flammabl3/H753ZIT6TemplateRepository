@@ -27,6 +27,7 @@ RM := rm -rf
 -include Drivers/STM32H7xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
+-include Components/SOARDebug/subdir.mk
 -include Components/AltitudeTask/subdir.mk
 -include Components/subdir.mk
 -include AltitudePredictionFilter/subdir.mk
@@ -76,34 +77,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := H753ZIT6TemplateRepository
+BUILD_ARTIFACT_NAME := H753ZIT6TemplateRepository_Integration
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-H753ZIT6TemplateRepository.elf \
+H753ZIT6TemplateRepository_Integration.elf \
 
 MAP_FILES += \
-H753ZIT6TemplateRepository.map \
+H753ZIT6TemplateRepository_Integration.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-H753ZIT6TemplateRepository.list \
+H753ZIT6TemplateRepository_Integration.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: H753ZIT6TemplateRepository.elf secondary-outputs
+main-build: H753ZIT6TemplateRepository_Integration.elf secondary-outputs
 
 # Tool invocations
-H753ZIT6TemplateRepository.elf H753ZIT6TemplateRepository.map: $(OBJS) $(USER_OBJS) C:\Users\harry\Desktop\soar\H753ZIT6TemplateRepository\STM32H753ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "H753ZIT6TemplateRepository.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\harry\Desktop\soar\H753ZIT6TemplateRepository\STM32H753ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="H753ZIT6TemplateRepository.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+H753ZIT6TemplateRepository_Integration.elf H753ZIT6TemplateRepository_Integration.map: $(OBJS) $(USER_OBJS) C:\Users\harry\Desktop\soar\H753ZIT6TemplateRepository_Integration\STM32H753ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "H753ZIT6TemplateRepository_Integration.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\harry\Desktop\soar\H753ZIT6TemplateRepository_Integration\STM32H753ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="H753ZIT6TemplateRepository_Integration.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -112,14 +113,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-H753ZIT6TemplateRepository.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "H753ZIT6TemplateRepository.list"
+H753ZIT6TemplateRepository_Integration.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "H753ZIT6TemplateRepository_Integration.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) H753ZIT6TemplateRepository.elf H753ZIT6TemplateRepository.list H753ZIT6TemplateRepository.map default.size.stdout
+	-$(RM) H753ZIT6TemplateRepository_Integration.elf H753ZIT6TemplateRepository_Integration.list H753ZIT6TemplateRepository_Integration.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

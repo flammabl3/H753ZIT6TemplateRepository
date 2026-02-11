@@ -7,7 +7,7 @@ C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.external
 ../SoarOS/Core/CubeUtils.cpp:95:10:uint16_t Utils::GetCRC16(uint8_t*, uint16_t)	2
 ../SoarOS/Core/CubeUtils.cpp:117:6:bool Utils::IsCrc16Correct(uint8_t*, uint16_t, uint16_t)	1
 ../SoarOS/Core/CubeUtils.cpp:130:9:int32_t Utils::StringToLong(const char*)	4
-../SoarOS/Core/CubeUtils.cpp:169:9:int32_t Utils::ExtractIntParameter(const char*, uint16_t)	3
+../SoarOS/Core/CubeUtils.cpp:169:9:int32_t Utils::ExtractIntParameter(const char*, uint16_t)	2
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Libraries/embedded-template-library/include/etl/private/crc_implementation.h:664:5:etl::crc_type<TCrcParameters, Table_Size>::crc_type() [with TCrcParameters = etl::private_crc::crc_parameters<short unsigned int, 4129, 0, 0, false>; unsigned int Table_Size = 256]	1
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Libraries/embedded-template-library/include/etl/private/../frame_check_sequence.h:134:10:void etl::frame_check_sequence<TPolicy>::reset() [with TPolicy = etl::private_crc::crc_policy<etl::private_crc::crc_parameters<short unsigned int, 4129, 0, 0, false>, 256>]	1
 C:/Users/harry/Desktop/soar/H753ZIT6TemplateRepository_Integration/SoarOS/Libraries/embedded-template-library/include/etl/private/../frame_check_sequence.h:159:10:void etl::frame_check_sequence<TPolicy>::add(uint8_t) [with TPolicy = etl::private_crc::crc_policy<etl::private_crc::crc_parameters<short unsigned int, 4129, 0, 0, false>, 256>]	1

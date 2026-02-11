@@ -40,7 +40,6 @@ CPP_DEPS :=
 SUBDIRS := \
 AltitudePredictionFilter \
 Components/AltitudeTask \
-Components/Communication \
 Components \
 Components/SOARDebug \
 Core/Src \
